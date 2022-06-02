@@ -1,0 +1,323 @@
+.welcome {
+  height:600px;
+  background-image: url("/home/namubiru/Downloads/teachers.png");
+  background-position:50% 50% ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+/*.welcome.text::after{
+  box-sizing: content-box;
+  position: relative;
+  z-index:999;
+  margin-top: -250;
+  margin-bottom: 0;
+  padding:20px 60px;
+  background-color: white;
+ /* position:a
+  bottom:30px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding-right: 20px;
+  padding-right: 20px*/
+  
+  .text{
+    display: block;
+    color:black;
+    background-color: white;
+    position: absolute;
+    margin: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding:50px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .text h2{
+color:#273c48;
+font-family:Jubilat,Georgia,sans-serif;
+line-height: 60px;
+font-size: 60px;
+margin-top: 40px;
+margin-bottom: 20px;
+  }
+  .the{
+    display:flex;
+    flex-direction: column;
+  }
+
+.the p{
+  background-color: black;
+  color:white;
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  font-weight: bold;
+  position: fix;
+  z-index: 500;
+}
+.the button{
+  
+  color:orange;
+  border-color:orange ;
+  background-color: black;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-top: 60px;
+
+}
+.the header{
+  position: fixed;
+  background-color: orange;
+  color:white;
+  z-index: 10000;
+  display:block;
+}
+  .menu li{
+
+  
+  display: inline;
+  position:relative;
+  padding:10px;
+}
+
+.the img{
+  width:24px
+}
+.innovators {
+  text-align: center;
+  
+  
+}
+.small{
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#2a2a2a;
+  line-height: 27px;
+  font-weight: 19px;
+}
+.innovators p{
+  
+  color:#273c48;
+font-family:Georgia, 'Times New Roman', Times, serif;
+line-height: 60px;
+font-size: 60px;
+margin-top: 40px;
+margin-bottom: 20px;
+  
+}
+.logo{
+  
+text-align: center;
+}
+.creating{
+  margin:200px;
+  display: grid;
+}
+.creating article{
+  
+  background-image: url("/home/namubiru/Downloads/BE BOLD.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+height: 600px;
+text-align:left;
+margin-left: 500px;
+
+}
+.creating> h4{
+  margin-bottom: 12px;
+}
+.creating text{
+  margin-top :50%;
+  color: brown;
+
+}
+
+.chap-and-tool{
+  display:block;
+  flex-wrap: wrap;
+}
+.chapters{
+ /*flex:50%;*/
+  background-image: url("/home/namubiru/Downloads/chapters.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width:40%;
+  flex-wrap: wrap;
+  background-position: 50% 50%;
+  background-color: white;
+  border-width: 8px 1px 1px;
+  margin-inline-end: 100px;
+  
+
+}
+
+
+.toolkit{
+  /*flex:50%;*/
+  float: right;
+  position: relative;
+  background-image: url("/home/namubiru/Downloads/toolkit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width:40%;
+
+  background-position: 50% 50%;
+  background-color: white;
+  border-width: 8px 1px 1px;
+  margin-inline-start: 100px;
+}
+.chapters text{
+  margin-top: 100px;
+}
+.commune{
+  display: block;
+}
+.commune p{
+  background-color: orange;
+  letter-spacing: 0.5;
+  padding-bottom: 262px;
+
+}
+.commune img{
+  float: right;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 300px;
+}
+.shared {
+  text-align:center;
+}
+.shared h2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:auto;
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 700px;
+  color:darkslategray;
+}
+.menu{
+  margin-left: 400px;
+  display: inline-block;
+  position: relative;
+  color:wheat;
+  font-size:13px;
+  font-weight:900;
+  letter-spacing: 1px;
+}
+.dropdown ul{
+  display: none;
+}
+.menu ul li:hover {
+ 
+  color: black;
+  
+}
+.menu ul li:hover>ul {
+  display:flex;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -400px;
+  margin-right: -400px;
+  background-color: blue;
+}
+.terms ul li{
+  text-decoration: underline;
+  list-style: none;
+  
+  position: relative;
+
+}
+.fotter{
+  display:inline-block;
+  justify-content: space-around;
+  justify-items:normal;
+}
+.facebook{
+  position: static;
+  display:inline-block;
+  width: 30px;
+  height:50px;
+  border-style: solid solid solid solid;
+  border-width: 1px;
+  border-color:#273c48;
+  background-image: url("/home/namubiru/Downloads/facebook.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition :all 200ms ease;
+  background-size: 11px;
+  margin-top: 30px;
+  margin:0px;
+  margin-right: 0px;
+}
+
+.twitter{
+    position: static;
+    display:inline-block;
+    width: 30px;
+    height:50px;
+    border-style: solid none solid solid;
+    border-width: 1px;
+    border-color:#273c48;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition :all 200ms ease;
+    background-size: 11px;
+    margin-top: 30;
+background-image: url("/home/namubiru/Downloads/twitter.png");
+}
+.insta{
+  
+  position: static;
+  display:inline-block;
+  width: 30px;
+  height:50px;
+  border-style: solid solid solid solid;
+  border-width: 1px;
+  border-color:#273c48;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition :all 200ms ease;
+  background-size: 11px;
+  margin-top: 30;
+  background-image: url("/home/namubiru/Downloads/insta.png");
+}
+.medium{
+  padding-left: 0%;
+  position: static;
+  display:inline-block;
+  text-decoration: overline;
+  width: 30px;
+  height:50px;
+  border-style: solid none solid solid;
+  border-right: solid ;
+  border-width: 1px;
+  border-color:#273c48;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition :all 200ms ease;
+  background-size: 11px;
+  margin-top: 30;
+  background-image: url("/home/namubiru/Downloads/m.png")
+
+
+}
+.profit img{
+  width:24px;
+}
+
+
