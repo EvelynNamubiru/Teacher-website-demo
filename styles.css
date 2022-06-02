@@ -1,3 +1,6 @@
+*{
+box-sizing: border-box;
+}
 .welcome {
   height:600px;
   background-image: url("/home/namubiru/Downloads/teachers.png");
@@ -118,35 +121,52 @@ margin-bottom: 20px;
 text-align: center;
 }
 .creating{
-  margin:200px;
-  display: grid;
+  margin-top:50px;
+  padding-top: 20px;
+
+  display: block;
 }
 .creating article{
-  
+  position:relative;
+  bottom: 12px;
+  left:100px;
   background-image: url("/home/namubiru/Downloads/BE BOLD.png");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 50% 50%;
 height: 600px;
-text-align:left;
 margin-left: 500px;
+margin-right:100px;
 
 }
-.creating> h4{
-  margin-bottom: 12px;
+.creating h4{
+  position: absolute;
+  bottom: 90px;
+  left:20px;
+  color: white;
+}
+.creating article p{
+  position: absolute;
+  bottom: 22px;
+  left:20px;
+  color: white;
 }
 .creating text{
-  margin-top :50%;
-  color: brown;
+  margin-top :500px;
+  margin-bottom: 200px;
+  color: black;
 
 }
 
 .chap-and-tool{
-  display:block;
-  flex-wrap: wrap;
+  display:flex;
+  margin:10px;
+padding: 0px;
 }
 .chapters{
  /*flex:50%;*/
+ margin-top: 0px;
+ position:relative;
   background-image: url("/home/namubiru/Downloads/chapters.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,6 +179,13 @@ margin-left: 500px;
   margin-inline-end: 100px;
   
 
+}
+.lower-part{
+  background-color: #f4f4f2
+}
+.inspired{
+  margin-top: 300px;
+  text-align: center;
 }
 
 
@@ -177,8 +204,17 @@ margin-left: 500px;
   border-width: 8px 1px 1px;
   margin-inline-start: 100px;
 }
+.toolkit text{
+  position: absolute;
+  bottom: -90px;
+  left:20px;
+}
 .chapters text{
-  margin-top: 100px;
+  position: absolute;
+  bottom: -90px;
+  left:20px;
+
+  
 }
 .commune{
   display: block;
@@ -199,6 +235,7 @@ margin-left: 500px;
 }
 .shared {
   text-align:center;
+  background-color: white;
 }
 .shared h2{
   display: block;
@@ -233,7 +270,7 @@ margin-left: 500px;
   margin-top: 0px;
   margin-left: -400px;
   margin-right: -400px;
-  background-color: blue;
+  background-color:gray;
 }
 .terms ul li{
   text-decoration: underline;
@@ -241,9 +278,13 @@ margin-left: 500px;
   
   position: relative;
 
+
+}
+.terms ul li:hover{
+  color: orange;
 }
 .fotter{
-  display:inline-block;
+  display:flex;
   justify-content: space-around;
   justify-items:normal;
 }
@@ -319,5 +360,18 @@ background-image: url("/home/namubiru/Downloads/twitter.png");
 .profit img{
   width:24px;
 }
+.privacy-image img{
+  height:150px;
+  margin-left: 1000px;
+  margin-top: -300px;
+
+}
+.ideo-image img{
+  height:20px;
+  margin-left: 200px;
+  margin-top: -700px;
+
+}
+
 
 
