@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 .welcome {
   height:600px;
-  background-image: url("/home/namubiru/Downloads/teachers.png");
+  background-image: url("image/teachers.png");
   background-position:50% 50% ;
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ text-align: center;
   position:relative;
   bottom: 12px;
   left:100px;
-  background-image: url("/home/namubiru/Downloads/BE BOLD.png");
+  background-image: url("image/BE BOLD.png");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 50% 50%;
@@ -167,7 +167,7 @@ padding: 0px;
  /*flex:50%;*/
  margin-top: 0px;
  position:relative;
-  background-image: url("/home/namubiru/Downloads/chapters.png");
+  background-image: url("image/chapters.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
@@ -193,7 +193,7 @@ padding: 0px;
   /*flex:50%;*/
   float: right;
   position: relative;
-  background-image: url("/home/namubiru/Downloads/toolkit.png");
+  background-image: url("image/toolkit.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
@@ -296,7 +296,7 @@ padding: 0px;
   border-style: solid solid solid solid;
   border-width: 1px;
   border-color:#273c48;
-  background-image: url("/home/namubiru/Downloads/facebook.png");
+  background-image: url("image/facebook.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   transition :all 200ms ease;
@@ -319,7 +319,7 @@ padding: 0px;
     transition :all 200ms ease;
     background-size: 11px;
     margin-top: 30;
-background-image: url("/home/namubiru/Downloads/twitter.png");
+background-image: url("image/twitter.png");
 }
 .insta{
   
@@ -335,7 +335,7 @@ background-image: url("/home/namubiru/Downloads/twitter.png");
   transition :all 200ms ease;
   background-size: 11px;
   margin-top: 30;
-  background-image: url("/home/namubiru/Downloads/insta.png");
+  background-image: url("image/insta.png");
 }
 .medium{
   padding-left: 0%;
@@ -353,7 +353,7 @@ background-image: url("/home/namubiru/Downloads/twitter.png");
   transition :all 200ms ease;
   background-size: 11px;
   margin-top: 30;
-  background-image: url("/home/namubiru/Downloads/m.png")
+  background-image: url("image/m.png")
 
 
 }
